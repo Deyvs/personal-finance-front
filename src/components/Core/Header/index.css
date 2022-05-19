@@ -1,0 +1,33 @@
+#header {
+    width: 100%;
+    background-color: rgb(47, 133, 139);
+    color: #eee;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: url('/src/images/my_logo1.png');
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 12px; 
+    border-bottom-left-radius: 5px; 
+    background-size: 60px;
+    background-repeat: no-repeat;
+}
+
+#menu > ul {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+#menu > ul > li {
+    padding: 20px;
+    cursor: pointer;
+}
+
